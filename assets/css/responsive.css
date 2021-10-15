@@ -1,0 +1,124 @@
+/* pc */
+@media (min-width: 1024px) {
+    #header .btn-menu{
+        display: none;
+    }
+}
+/* tablet and mobile */
+@media (max-width: 1023px) {
+    .place-list .place-btn,
+    .contact-form .submit-form-control,
+    .contact-form .input-form-control{
+        padding: 16px;
+        font-size: 18px;
+    }
+    #nav .subnav li {
+        padding: 4px 0px;
+    }
+    .content-section .contact-about {
+        line-height: 2;
+        font-size: 24px;
+    }
+    .contact-about i[class*="fas"] {
+        width: 36px;
+    }
+    #footer .social {
+        font-size: 40px;
+    }
+    #footer .social a{
+        margin-left: 16px;
+    }
+    #footer .copyright {
+        font-size: 32px;
+    }
+    #footer .copyright a{
+        padding: 12px;
+        display: inline-block;
+    }
+}
+/* tablet */
+@media (min-width: 741px) and (max-width: 1023px){
+    #header .btn-menu{
+        display: none;
+    }
+    .content-section .contact-form{
+        margin-top: 48px;
+    }
+}
+/* mobile */
+@media (max-width: 740px) {
+
+    html{
+        font-size: 20px;
+    }
+
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+
+    .s-mt-16{
+        margin-top: 16px !important;
+    }
+
+    .s-mt-32{
+        margin-top: 32px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .btn-search{
+        display: none;
+    }
+    #nav > li {
+        float: none;
+    }
+    #nav{
+        display: block;
+    }
+    #nav li a {
+        font-size: 18px;
+        padding: 4px 28px;
+    }
+    #nav .subnav{
+        position: unset;
+        background-color: #333;
+        padding: 0px 30px;
+        
+    }
+    #nav .subnav li {
+        padding: 4px 0px;
+    }
+    #nav .subnav a{
+        color: #fff;
+        font-size: 18px;
+    }
+    #content .content-sub-heading {
+        margin-top: -4px;
+        margin-bottom: 32px;
+    }
+    .content-section .contact-about{
+        font-size: 20px;
+    }
+    .place-list .about-heading{
+        font-size: 24px;
+    }
+    #slider .slider__content .text-heading{
+        margin: 0;
+    }
+    #slider .slider__content {
+        position: absolute;
+        bottom: 5px;
+        width: 100%;
+    }
+    #slider .slider__content .text-descrip {
+        font-size: 15px;
+        font-weight: 100;
+    }
+}
