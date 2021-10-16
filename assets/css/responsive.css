@@ -1,13 +1,12 @@
 /* pc */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     #header .btn-menu{
         display: none;
     }
 }
 /* tablet and mobile */
-@media (max-width: 1023px) {
-    .place-list .place-btn,
-    .contact-form .submit-form-control,
+@media (max-width: 63.9375em) {
+    .btn,
     .contact-form .input-form-control{
         padding: 16px;
         font-size: 18px;
@@ -37,7 +36,7 @@
     }
 }
 /* tablet */
-@media (min-width: 741px) and (max-width: 1023px){
+@media (min-width: 46.25em) and (max-width: 63.9375em){
     #header .btn-menu{
         display: none;
     }
@@ -46,7 +45,7 @@
     }
 }
 /* mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
 
     html{
         font-size: 20px;
@@ -120,5 +119,8 @@
     #slider .slider__content .text-descrip {
         font-size: 15px;
         font-weight: 100;
+    }
+    #footer .social {
+        font-size: 32px;
     }
 }
